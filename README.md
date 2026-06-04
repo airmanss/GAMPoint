@@ -76,19 +76,19 @@ https://github.com/Pointcept/Pointcept
 
 After the Pointcept environment is configured, place the GAMPoint model file and configuration files into the corresponding Pointcept project directories before training or evaluation.
 
-## Data preparation
+## Data availability and preparation
 
 This repository does **not** redistribute the raw or preprocessed files of ScanNet v2 or S3DIS.
 
-ScanNet v2 and S3DIS are third-party benchmark datasets. Users should obtain them from their official dataset providers and follow the corresponding license and access requirements.
+ScanNet v2 and S3DIS are third-party benchmark datasets. Users should obtain these datasets from their official dataset providers and follow the corresponding license and access requirements.
 
-In this work, we followed the Pointcept data preparation pipeline for ScanNet v2 and S3DIS. Please refer to the official Pointcept data preparation instructions:
+In this work, we followed the Pointcept data preparation pipeline for ScanNet v2 and S3DIS:
 
 ```text
 https://github.com/Pointcept/Pointcept#data-preparation
 ```
 
-After obtaining the datasets from the official sources, users can use the following preprocessing scripts provided in this repository:
+After obtaining the datasets from the official sources, users may use the preprocessing scripts provided in this repository:
 
 ```text
 s3dis_preprocessing.py
@@ -96,6 +96,8 @@ scannet_preprocessing.py
 ```
 
 Please modify the dataset paths in the preprocessing scripts and configuration files according to your local environment.
+
+The experimental result files supporting the manuscript findings will be provided as the minimal data underlying the manuscript findings, including main results, ablation results, repeated-run results, per-class metrics, variance analysis, and statistical tests.
 
 ## Training and evaluation
 
@@ -113,13 +115,11 @@ python tools/train.py --config-file scannet_config.py
 
 Please adjust the dataset paths, output paths, GPU settings, and other environment-specific parameters in the configuration files before running the experiments.
 
-## Data availability
+## Notes
 
-This repository provides the code and configuration files required to reproduce the GAMPoint experiments reported in the manuscript.
+The original Pointcept codebase is used as the base framework. The GAMPoint-specific implementation, configuration files, and preprocessing scripts are provided in this repository to support reproducibility of the manuscript.
 
-The ScanNet v2 and S3DIS datasets are not redistributed in this repository. Users should obtain the datasets from their official sources and prepare them following the Pointcept data preparation pipeline.
-
-The experimental result files supporting the manuscript findings, such as main results, ablation results, repeated-run results, per-class metrics, variance analysis, and statistical tests, should be provided separately as the minimal data underlying the manuscript findings.
+The ScanNet v2 and S3DIS datasets are not redistributed in this repository. Users should obtain them from the official dataset providers and prepare them following the Pointcept data preparation pipeline.
 
 ## License and acknowledgement
 
