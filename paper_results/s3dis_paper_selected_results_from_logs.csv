@@ -1,0 +1,7 @@
+﻿dataset,split,method,input_attributes,uses_rgb,uses_xyz,uses_normal,n_runs,aggregation,run_id,mIoU,mAcc,allAcc,is_paper_result,source_log,notes
+S3DIS,Area 5,GAMPoint,RGB+XYZ+Normal,true,true,true,5,paper_selected_run,5,0.7212,0.7780,0.9127,true,logs_excerpt/s3dis_input_modality_and_repeated_runs_excerpt_corrected.txt,This row records the run marked as paper result in the source excerpt.
+S3DIS,Area 5,BaseOpt,RGB+XYZ+Normal,true,true,true,5,paper_selected_run,3,0.7201,0.7685,0.9132,true,logs_excerpt/s3dis_input_modality_and_repeated_runs_excerpt_corrected.txt,This row records the run marked as paper result in the source excerpt.
+S3DIS,Area 5,GAMPoint,RGB+XYZ,true,true,false,1,single_run,1,0.7085,0.7587,0.9082,true,logs_excerpt/s3dis_input_modality_and_repeated_runs_excerpt_corrected.txt,single run
+S3DIS,Area 5,GAMPoint,XYZ,false,true,false,1,single_run,1,0.6904,0.7419,0.9011,true,logs_excerpt/s3dis_input_modality_and_repeated_runs_excerpt_corrected.txt,single run
+S3DIS,Area 5,BaseOpt,RGB+XYZ,true,true,false,1,single_run,1,0.7077,0.7541,0.9113,true,logs_excerpt/s3dis_input_modality_and_repeated_runs_excerpt_corrected.txt,single run
+S3DIS,Area 5,BaseOpt,XYZ,false,true,false,1,single_run,1,0.6856,0.7427,0.9022,true,logs_excerpt/s3dis_input_modality_and_repeated_runs_excerpt_corrected.txt,single run

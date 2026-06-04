@@ -1,0 +1,3 @@
+﻿dataset,split,method,input_attributes,window_size,n_runs,mIoU_mean,mIoU_std_sample,mAcc_mean,mAcc_std_sample,allAcc_mean,allAcc_std_sample,source_file,notes
+S3DIS,Area 5,GAMPoint,RGB+XYZ+Normal,512,3,0.7186,0.0116,0.7710,0.0079,0.9124,0.0035,s3dis_window_size_sensitivity_from_logs.csv,Sample standard deviation computed from the listed runs.
+S3DIS,Area 5,GAMPoint,RGB+XYZ+Normal,2048,3,0.7210,0.0103,0.7737,0.0138,0.9122,0.0028,s3dis_window_size_sensitivity_from_logs.csv,Sample standard deviation computed from the listed runs.

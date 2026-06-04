@@ -1,0 +1,11 @@
+﻿dataset,split,method,input_attributes,run_id,mIoU,mAcc,allAcc,is_paper_result,source_log,notes
+S3DIS,Area 5,GAMPoint,RGB+XYZ+Normal,1,0.7183,0.7757,0.9124,false,logs_excerpt/s3dis_input_modality_and_repeated_runs_excerpt_corrected.txt,additional repeated run
+S3DIS,Area 5,GAMPoint,RGB+XYZ+Normal,2,0.7160,0.7738,0.9092,false,logs_excerpt/s3dis_input_modality_and_repeated_runs_excerpt_corrected.txt,additional repeated run
+S3DIS,Area 5,GAMPoint,RGB+XYZ+Normal,3,0.7240,0.7738,0.9152,false,logs_excerpt/s3dis_input_modality_and_repeated_runs_excerpt_corrected.txt,additional repeated run
+S3DIS,Area 5,GAMPoint,RGB+XYZ+Normal,4,0.7242,0.7793,0.9119,false,logs_excerpt/s3dis_input_modality_and_repeated_runs_excerpt_corrected.txt,additional repeated run
+S3DIS,Area 5,GAMPoint,RGB+XYZ+Normal,5,0.7212,0.7780,0.9127,true,logs_excerpt/s3dis_input_modality_and_repeated_runs_excerpt_corrected.txt,paper result used in manuscript
+S3DIS,Area 5,BaseOpt,RGB+XYZ+Normal,1,0.7133,0.7610,0.9151,false,logs_excerpt/s3dis_input_modality_and_repeated_runs_excerpt_corrected.txt,additional repeated run
+S3DIS,Area 5,BaseOpt,RGB+XYZ+Normal,2,0.7095,0.7701,0.9103,false,logs_excerpt/s3dis_input_modality_and_repeated_runs_excerpt_corrected.txt,additional repeated run
+S3DIS,Area 5,BaseOpt,RGB+XYZ+Normal,3,0.7201,0.7685,0.9132,true,logs_excerpt/s3dis_input_modality_and_repeated_runs_excerpt_corrected.txt,paper result used in manuscript
+S3DIS,Area 5,BaseOpt,RGB+XYZ+Normal,4,0.7135,0.7611,0.9121,false,logs_excerpt/s3dis_input_modality_and_repeated_runs_excerpt_corrected.txt,additional repeated run
+S3DIS,Area 5,BaseOpt,RGB+XYZ+Normal,5,0.7136,0.7654,0.9129,false,logs_excerpt/s3dis_input_modality_and_repeated_runs_excerpt_corrected.txt,additional repeated run

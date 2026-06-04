@@ -1,0 +1,3 @@
+﻿dataset,split,method,input_attributes,n_runs,mIoU_mean,mIoU_std_sample,mAcc_mean,mAcc_std_sample,allAcc_mean,allAcc_std_sample,paper_result_run_id,paper_result_mIoU,paper_result_mAcc,paper_result_allAcc,source_file,notes
+S3DIS,Area 5,GAMPoint,RGB+XYZ+Normal,5,0.7207,0.0036,0.7761,0.0025,0.9123,0.0021,5,0.7212,0.7780,0.9127,s3dis_repeated_runs_from_logs.csv,Mean and sample standard deviation computed from the five listed runs; paper_result_* identifies the run used in the manuscript.
+S3DIS,Area 5,BaseOpt,RGB+XYZ+Normal,5,0.7140,0.0038,0.7652,0.0042,0.9127,0.0017,3,0.7201,0.7685,0.9132,s3dis_repeated_runs_from_logs.csv,Mean and sample standard deviation computed from the five listed runs; paper_result_* identifies the run used in the manuscript.
