@@ -1,0 +1,61 @@
+dataset,split,metric,class_name,method_column,value_percent,source_log,notes
+ScanNet,validation,mIoU,wall,BaseOpt,87.37,logs_excerpt/scannet_table4_results_excerpt.txt,Transcribed from the user-provided Table 4 ScanNet screenshot.
+ScanNet,validation,mIoU,wall,GAMPoint w/o EnhancedRPE,87.37,logs_excerpt/scannet_table4_results_excerpt.txt,Transcribed from the user-provided Table 4 ScanNet screenshot.
+ScanNet,validation,mIoU,wall,GAMGAMPoint,87.21,logs_excerpt/scannet_table4_results_excerpt.txt,Transcribed from the user-provided Table 4 ScanNet screenshot.
+ScanNet,validation,mIoU,floor,BaseOpt,96.44,logs_excerpt/scannet_table4_results_excerpt.txt,Transcribed from the user-provided Table 4 ScanNet screenshot.
+ScanNet,validation,mIoU,floor,GAMPoint w/o EnhancedRPE,96.36,logs_excerpt/scannet_table4_results_excerpt.txt,Transcribed from the user-provided Table 4 ScanNet screenshot.
+ScanNet,validation,mIoU,floor,GAMGAMPoint,96.27,logs_excerpt/scannet_table4_results_excerpt.txt,Transcribed from the user-provided Table 4 ScanNet screenshot.
+ScanNet,validation,mIoU,cabinet,BaseOpt,71.12,logs_excerpt/scannet_table4_results_excerpt.txt,Transcribed from the user-provided Table 4 ScanNet screenshot.
+ScanNet,validation,mIoU,cabinet,GAMPoint w/o EnhancedRPE,71.94,logs_excerpt/scannet_table4_results_excerpt.txt,Transcribed from the user-provided Table 4 ScanNet screenshot.
+ScanNet,validation,mIoU,cabinet,GAMGAMPoint,73.8,logs_excerpt/scannet_table4_results_excerpt.txt,Transcribed from the user-provided Table 4 ScanNet screenshot.
+ScanNet,validation,mIoU,bed,BaseOpt,83.53,logs_excerpt/scannet_table4_results_excerpt.txt,Transcribed from the user-provided Table 4 ScanNet screenshot.
+ScanNet,validation,mIoU,bed,GAMPoint w/o EnhancedRPE,84.33,logs_excerpt/scannet_table4_results_excerpt.txt,Transcribed from the user-provided Table 4 ScanNet screenshot.
+ScanNet,validation,mIoU,bed,GAMPoint,85.86,logs_excerpt/scannet_table4_results_excerpt.txt,Transcribed from the user-provided Table 4 ScanNet screenshot.
+ScanNet,validation,mIoU,chair,BaseOpt,82.21,logs_excerpt/scannet_table4_results_excerpt.txt,Transcribed from the user-provided Table 4 ScanNet screenshot.
+ScanNet,validation,mIoU,chair,GAMPoint w/o EnhancedRPE,92.36,logs_excerpt/scannet_table4_results_excerpt.txt,Transcribed from the user-provided Table 4 ScanNet screenshot.
+ScanNet,validation,mIoU,chair,GAMPoint,92.01,logs_excerpt/scannet_table4_results_excerpt.txt,Transcribed from the user-provided Table 4 ScanNet screenshot.
+ScanNet,validation,mIoU,sofa,BaseOpt,84.11,logs_excerpt/scannet_table4_results_excerpt.txt,Transcribed from the user-provided Table 4 ScanNet screenshot.
+ScanNet,validation,mIoU,sofa,GAMPoint w/o EnhancedRPE,83.71,logs_excerpt/scannet_table4_results_excerpt.txt,Transcribed from the user-provided Table 4 ScanNet screenshot.
+ScanNet,validation,mIoU,sofa,GAMPoint,86.15,logs_excerpt/scannet_table4_results_excerpt.txt,Transcribed from the user-provided Table 4 ScanNet screenshot.
+ScanNet,validation,mIoU,table,BaseOpt,80.35,logs_excerpt/scannet_table4_results_excerpt.txt,Transcribed from the user-provided Table 4 ScanNet screenshot.
+ScanNet,validation,mIoU,table,GAMPoint w/o EnhancedRPE,78.52,logs_excerpt/scannet_table4_results_excerpt.txt,Transcribed from the user-provided Table 4 ScanNet screenshot.
+ScanNet,validation,mIoU,table,GAMPoint,79.45,logs_excerpt/scannet_table4_results_excerpt.txt,Transcribed from the user-provided Table 4 ScanNet screenshot.
+ScanNet,validation,mIoU,door,BaseOpt,73.29,logs_excerpt/scannet_table4_results_excerpt.txt,Transcribed from the user-provided Table 4 ScanNet screenshot.
+ScanNet,validation,mIoU,door,GAMPoint w/o EnhancedRPE,74.19,logs_excerpt/scannet_table4_results_excerpt.txt,Transcribed from the user-provided Table 4 ScanNet screenshot.
+ScanNet,validation,mIoU,door,GAMPoint,72.29,logs_excerpt/scannet_table4_results_excerpt.txt,Transcribed from the user-provided Table 4 ScanNet screenshot.
+ScanNet,validation,mIoU,window,BaseOpt,68.67,logs_excerpt/scannet_table4_results_excerpt.txt,Transcribed from the user-provided Table 4 ScanNet screenshot.
+ScanNet,validation,mIoU,window,GAMPoint w/o EnhancedRPE,70.58,logs_excerpt/scannet_table4_results_excerpt.txt,Transcribed from the user-provided Table 4 ScanNet screenshot.
+ScanNet,validation,mIoU,window,GAMPoint,70.11,logs_excerpt/scannet_table4_results_excerpt.txt,Transcribed from the user-provided Table 4 ScanNet screenshot.
+ScanNet,validation,mIoU,bookshelf,BaseOpt,82.18,logs_excerpt/scannet_table4_results_excerpt.txt,Transcribed from the user-provided Table 4 ScanNet screenshot.
+ScanNet,validation,mIoU,bookshelf,GAMPoint w/o EnhancedRPE,81.95,logs_excerpt/scannet_table4_results_excerpt.txt,Transcribed from the user-provided Table 4 ScanNet screenshot.
+ScanNet,validation,mIoU,bookshelf,GAMPoint,83.91,logs_excerpt/scannet_table4_results_excerpt.txt,Transcribed from the user-provided Table 4 ScanNet screenshot.
+ScanNet,validation,mIoU,picture,BaseOpt,41.23,logs_excerpt/scannet_table4_results_excerpt.txt,Transcribed from the user-provided Table 4 ScanNet screenshot.
+ScanNet,validation,mIoU,picture,GAMPoint w/o EnhancedRPE,36.2,logs_excerpt/scannet_table4_results_excerpt.txt,Transcribed from the user-provided Table 4 ScanNet screenshot.
+ScanNet,validation,mIoU,picture,GAMPoint,38.56,logs_excerpt/scannet_table4_results_excerpt.txt,Transcribed from the user-provided Table 4 ScanNet screenshot.
+ScanNet,validation,mIoU,counter,BaseOpt,65.6,logs_excerpt/scannet_table4_results_excerpt.txt,Transcribed from the user-provided Table 4 ScanNet screenshot.
+ScanNet,validation,mIoU,counter,GAMPoint w/o EnhancedRPE,67.61,logs_excerpt/scannet_table4_results_excerpt.txt,Transcribed from the user-provided Table 4 ScanNet screenshot.
+ScanNet,validation,mIoU,counter,GAMPoint,71.43,logs_excerpt/scannet_table4_results_excerpt.txt,Transcribed from the user-provided Table 4 ScanNet screenshot.
+ScanNet,validation,mIoU,desk,BaseOpt,73.77,logs_excerpt/scannet_table4_results_excerpt.txt,Transcribed from the user-provided Table 4 ScanNet screenshot.
+ScanNet,validation,mIoU,desk,GAMPoint w/o EnhancedRPE,71.41,logs_excerpt/scannet_table4_results_excerpt.txt,Transcribed from the user-provided Table 4 ScanNet screenshot.
+ScanNet,validation,mIoU,desk,GAMPoint,70.84,logs_excerpt/scannet_table4_results_excerpt.txt,Transcribed from the user-provided Table 4 ScanNet screenshot.
+ScanNet,validation,mIoU,curtain,BaseOpt,74.77,logs_excerpt/scannet_table4_results_excerpt.txt,Transcribed from the user-provided Table 4 ScanNet screenshot.
+ScanNet,validation,mIoU,curtain,GAMPoint w/o EnhancedRPE,78.87,logs_excerpt/scannet_table4_results_excerpt.txt,Transcribed from the user-provided Table 4 ScanNet screenshot.
+ScanNet,validation,mIoU,curtain,GAMPoint,77.4,logs_excerpt/scannet_table4_results_excerpt.txt,Transcribed from the user-provided Table 4 ScanNet screenshot.
+ScanNet,validation,mIoU,refridgerator,BaseOpt,71.29,logs_excerpt/scannet_table4_results_excerpt.txt,Transcribed from the user-provided Table 4 ScanNet screenshot.
+ScanNet,validation,mIoU,refridgerator,GAMPoint w/o EnhancedRPE,71.16,logs_excerpt/scannet_table4_results_excerpt.txt,Transcribed from the user-provided Table 4 ScanNet screenshot.
+ScanNet,validation,mIoU,refridgerator,GAMPoint,66.79,logs_excerpt/scannet_table4_results_excerpt.txt,Transcribed from the user-provided Table 4 ScanNet screenshot.
+ScanNet,validation,mIoU,shower,BaseOpt,70.3,logs_excerpt/scannet_table4_results_excerpt.txt,Transcribed from the user-provided Table 4 ScanNet screenshot.
+ScanNet,validation,mIoU,shower,GAMPoint w/o EnhancedRPE,72.89,logs_excerpt/scannet_table4_results_excerpt.txt,Transcribed from the user-provided Table 4 ScanNet screenshot.
+ScanNet,validation,mIoU,shower,GAMPoint,71.51,logs_excerpt/scannet_table4_results_excerpt.txt,Transcribed from the user-provided Table 4 ScanNet screenshot.
+ScanNet,validation,mIoU,toilet,BaseOpt,93.47,logs_excerpt/scannet_table4_results_excerpt.txt,Transcribed from the user-provided Table 4 ScanNet screenshot.
+ScanNet,validation,mIoU,toilet,GAMPoint w/o EnhancedRPE,94.14,logs_excerpt/scannet_table4_results_excerpt.txt,Transcribed from the user-provided Table 4 ScanNet screenshot.
+ScanNet,validation,mIoU,toilet,GAMPoint,94.21,logs_excerpt/scannet_table4_results_excerpt.txt,Transcribed from the user-provided Table 4 ScanNet screenshot.
+ScanNet,validation,mIoU,sink,BaseOpt,71.22,logs_excerpt/scannet_table4_results_excerpt.txt,Transcribed from the user-provided Table 4 ScanNet screenshot.
+ScanNet,validation,mIoU,sink,GAMPoint w/o EnhancedRPE,69.64,logs_excerpt/scannet_table4_results_excerpt.txt,Transcribed from the user-provided Table 4 ScanNet screenshot.
+ScanNet,validation,mIoU,sink,GAMPoint,69.21,logs_excerpt/scannet_table4_results_excerpt.txt,Transcribed from the user-provided Table 4 ScanNet screenshot.
+ScanNet,validation,mIoU,bathtub,BaseOpt,90.06,logs_excerpt/scannet_table4_results_excerpt.txt,Transcribed from the user-provided Table 4 ScanNet screenshot.
+ScanNet,validation,mIoU,bathtub,GAMPoint w/o EnhancedRPE,91.96,logs_excerpt/scannet_table4_results_excerpt.txt,Transcribed from the user-provided Table 4 ScanNet screenshot.
+ScanNet,validation,mIoU,bathtub,GAMPoint,90.61,logs_excerpt/scannet_table4_results_excerpt.txt,Transcribed from the user-provided Table 4 ScanNet screenshot.
+ScanNet,validation,mIoU,otherfurniture,BaseOpt,63.19,logs_excerpt/scannet_table4_results_excerpt.txt,Transcribed from the user-provided Table 4 ScanNet screenshot.
+ScanNet,validation,mIoU,otherfurniture,GAMPoint w/o EnhancedRPE,61.44,logs_excerpt/scannet_table4_results_excerpt.txt,Transcribed from the user-provided Table 4 ScanNet screenshot.
+ScanNet,validation,mIoU,otherfurniture,GAMPoint,64.87,logs_excerpt/scannet_table4_results_excerpt.txt,Transcribed from the user-provided Table 4 ScanNet screenshot.

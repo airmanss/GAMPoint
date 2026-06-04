@@ -1,0 +1,4 @@
+dataset,split,metric,method_column,value_percent,is_paper_result,source_log,notes
+ScanNet,validation,mIoU,BaseOpt,76.6,TRUE,logs_excerpt/scannet_table4_results_excerpt.txt,Total mIoU row transcribed from the user-provided Table 4 ScanNet screenshot.
+ScanNet,validation,mIoU,GAMPoint w/o EnhancedRPE ,76.83,TRUE,logs_excerpt/scannet_table4_results_excerpt.txt,Total mIoU row transcribed from the user-provided Table 4 ScanNet screenshot.
+ScanNet,validation,mIoU,GAMPoint,77.1,TRUE,logs_excerpt/scannet_table4_results_excerpt.txt,Total mIoU row transcribed from the user-provided Table 4 ScanNet screenshot.
