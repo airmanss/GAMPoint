@@ -1,0 +1,25 @@
+Table 4 Scannet
+Metric: mIoU
+Columns: BaseOpt, GAMPoint w/o EnhancedREP, GAMPoint
+
+wall: Baseline 87.37, end-PRE 87.37, Point 87.21
+floor: Baseline 96.44, end-PRE 96.36, Point 96.27
+cabinet: Baseline 71.12, end-PRE 71.94, Point 73.80
+bed: Baseline 83.53, end-PRE 84.33, Point 85.86
+chair: Baseline 82.21, end-PRE 92.36, Point 92.01
+sofa: Baseline 84.11, end-PRE 83.71, Point 86.15
+table: Baseline 80.35, end-PRE 78.52, Point 79.45
+door: Baseline 73.29, end-PRE 74.19, Point 72.29
+window: Baseline 68.67, end-PRE 70.58, Point 70.11
+bookshelf: Baseline 82.18, end-PRE 81.95, Point 83.91
+picture: Baseline 41.23, end-PRE 36.20, Point 38.56
+counter: Baseline 65.60, end-PRE 67.61, Point 71.43
+desk: Baseline 73.77, end-PRE 71.41, Point 70.84
+curtain: Baseline 74.77, end-PRE 78.87, Point 77.40
+refridgerator: Baseline 71.29, end-PRE 71.16, Point 66.79
+shower: Baseline 70.30, end-PRE 72.89, Point 71.51
+toilet: Baseline 93.47, end-PRE 94.14, Point 94.21
+sink: Baseline 71.22, end-PRE 69.64, Point 69.21
+bathtub: Baseline 90.06, end-PRE 91.96, Point 90.61
+otherfurniture: Baseline 63.19, end-PRE 61.44, Point 64.87
+Totally: Baseline 76.60, end-PRE 76.83, Point 77.10
