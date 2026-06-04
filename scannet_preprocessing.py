@@ -13,6 +13,49 @@ from copy import deepcopy
 from torch.utils.data import Dataset
 from collections.abc import Sequence
 
+try:
+    from scipy.spatial import cKDTree
+except ImportError:
+    import warnings
+    warnings.warn("Please install scipy for parsing curvature")
+
+
+def compute_curvature(coords, k_list=(16, 32)):
+    """
+    PCA-based curvature over k-NN neighborhoods (Weinmann et al. ISPRS 2015).
+    Returns (N, 4*len(k_list)): curvature, linearity, planarity, sphericity per scale.
+    """
+    tree = cKDTree(coords)
+    k_max = max(k_list)
+    _, all_idx = tree.query(coords, k=k_max + 1)
+    all_idx = all_idx[:, 1:]  # drop self
+
+    scale_feats = []
+    for k in k_list:
+        idx = all_idx[:, :k]
+        N = len(coords)
+        eigs = np.zeros((N, 3), dtype=np.float32)
+        for start in range(0, N, 50000):
+            end = min(start + 50000, N)
+            neigh = coords[idx[start:end]]
+            centered = neigh - neigh.mean(axis=1, keepdims=True)
+            cov = np.einsum("bki,bkj->bij", centered, centered) / (k - 1)
+            for i, c in enumerate(cov):
+                vals = np.linalg.eigvalsh(c)
+                eigs[start + i] = vals[::-1]  # descending: lam0 >= lam1 >= lam2
+
+        lam0, lam1, lam2 = eigs[:, 0], eigs[:, 1], eigs[:, 2]
+        eps = 1e-8
+        curvature  = lam2 / (lam0 + lam1 + lam2 + eps)
+        linearity  = (lam0 - lam1) / (lam0 + eps)
+        planarity  = (lam1 - lam2) / (lam0 + eps)
+        sphericity = lam2           / (lam0 + eps)
+        scale_feats.append(
+            np.stack([curvature, linearity, planarity, sphericity], axis=1)
+        )
+
+    return np.concatenate(scale_feats, axis=1).astype(np.float32)
+
 from pointcept.utils.logger import get_root_logger
 from pointcept.utils.cache import shared_dict
 from .builder import DATASETS
@@ -32,6 +75,7 @@ class ScanNetDataset(DefaultDataset):
         "normal",
         "segment20",
         "instance",
+        "curvature",
     ]
     class2id = np.array(VALID_CLASS_IDS_20)
 
@@ -74,6 +118,12 @@ class ScanNetDataset(DefaultDataset):
         data_dict["color"] = data_dict["color"].astype(np.float32)
         data_dict["normal"] = data_dict["normal"].astype(np.float32)
 
+        # Load pre-computed curvature if available, otherwise compute on-the-fly
+        if "curvature" in data_dict.keys():
+            data_dict["curvature"] = data_dict["curvature"].astype(np.float32)
+        else:
+            data_dict["curvature"] = compute_curvature(data_dict["coord"])
+
         if "segment20" in data_dict.keys():
             data_dict["segment"] = (
                 data_dict.pop("segment20").reshape([-1]).astype(np.int32)
@@ -112,5 +162,6 @@ class ScanNet200Dataset(ScanNetDataset):
         "normal",
         "segment200",
         "instance",
+        "curvature",
     ]
     class2id = np.array(VALID_CLASS_IDS_200)
