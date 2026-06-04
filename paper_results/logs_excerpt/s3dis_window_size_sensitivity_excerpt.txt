@@ -1,0 +1,10 @@
+w_512 result
+mIoU/mAcc/allAcc 0.7297/0.7767/0.9147
+mIoU/mAcc/allAcc 0.7196/0.7743/0.9140
+mIoU/mAcc/allAcc 0.7065/0.7619/0.9084
+w_2048 result 
+mIoU/mAcc/allAcc 0.7310/0.7891/0.9133
+mIoU/mAcc/allAcc 0.7216/0.7697/0.9143
+mIoU/mAcc/allAcc 0.7105/0.7624/0.9091
+
+

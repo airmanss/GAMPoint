@@ -1,0 +1,20 @@
+GAMPoint_RGB+XYZ+Normal result：
+Val result: mIoU/mAcc/allAcc 0.7183/0.7757/0.9124
+Val result: mIoU/mAcc/allAcc 0.7160/0.7738/0.9092
+Val result: mIoU/mAcc/allAcc 0.7240/0.7738/0.9152
+Val result: mIoU/mAcc/allAcc 0.7242/0.7793/0.9119
+Val result: mIoU/mAcc/allAcc 0.7212/0.7780/0.9127(paper result)
+GAMPoint_RGB+XYZ result：
+Val result: mIoU/mAcc/allAcc 0.7085/0.7587/0.9082
+GAMPoint_XYZ result：
+Val result: mIoU/mAcc/allAcc 0.6904/0.7419/0.9011
+BaseOpt_RGB+XYZ+Normal result：
+Val result: mIoU/mAcc/allAcc 0.7133/0.7610/0.9151
+Val result: mIoU/mAcc/allAcc 0.7095/0.7701/0.9103
+Val result: mIoU/mAcc/allAcc 0.7201/0.7685/0.9132(paper result)
+Val result: mIoU/mAcc/allAcc 0.7135/0.7611/0.9121
+Val result: mIoU/mAcc/allAcc 0.7136/0.7654/0.9129
+BaseOpt_RGB+XYZ result：
+Val result: mIoU/mAcc/allAcc 0.7077/0.7541/0.9113
+BaseOpt_XYZ result：
+Val result: mIoU/mAcc/allAcc 0.6856/0.7427/0.9022
